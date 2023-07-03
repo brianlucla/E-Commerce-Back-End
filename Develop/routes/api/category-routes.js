@@ -9,8 +9,11 @@ router.get('/', (req, res) => {
   // be sure to include its associated Products
   try{
     const categoryData = await Category.findAll({include:[Model:Product]});
+
     res.status(200).json(categoryData);
+
   } catch(error){
+
     res.status(500).json(error);
   }
 
@@ -21,11 +24,17 @@ router.get('/:id', (req, res) => {
   // be sure to include its associated Products
   try{
     const categoryData = await Category.findOne(req.params.id, {
+
       include: [Model:Product]
+
     });
+
     res.status(200).json(categoryData);
+  
   } catch (error){
+
     res.status(500).json(error);
+    
   }
 });
 
