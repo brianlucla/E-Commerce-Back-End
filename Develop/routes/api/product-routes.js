@@ -27,7 +27,7 @@ router.get('/:id', (req, res) => {
     });
     res.status(200).json(productData);
   } catch (error) {
-    
+    res.status(400).json(productData);
   }
 });
 
