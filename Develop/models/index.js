@@ -28,7 +28,7 @@ Product.belongsToMany(Tag, {
 
     unique:false,
 
-  }
+  },
 
   as: 'products_tagged'
 });
@@ -41,7 +41,7 @@ Tag.belongsToMany(Product, {
     model:ProductTag,
 
     unique:false,
-  }
+  },
   
   as: 'tagged_products'
 });
