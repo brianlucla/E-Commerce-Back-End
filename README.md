@@ -14,17 +14,11 @@ Step 4: Run "npm start" to start the server.
 
 ## Usage
 
+To use this application, use Insomnia or localhost to view the JSON formatted objects for the database stored in MySQL.
+
 Github Repository Link: https://github.com/brianlucla/E-Commerce-Back-End
 
-Screenshot: 
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Screenshot: ![screenshot](assets/images/screenshot.jpg)
 
 ## Credits
 
